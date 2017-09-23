@@ -8,7 +8,9 @@ namespace AppRouletteNetFlix
         {
             InitializeComponent();
 
-            MainPage = new AppRouletteNetFlixPage();
+            //MainPage = new AppRouletteNetFlixPage();
+
+            MainPage = new MoviesPage();
         }
 
         protected override void OnStart()
