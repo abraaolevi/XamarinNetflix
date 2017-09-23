@@ -10,7 +10,7 @@ namespace AppRouletteNetFlix
 
             //MainPage = new AppRouletteNetFlixPage();
 
-            MainPage = new MoviesPage();
+            MainPage = new NavigationPage(new MoviesPage());
         }
 
         protected override void OnStart()

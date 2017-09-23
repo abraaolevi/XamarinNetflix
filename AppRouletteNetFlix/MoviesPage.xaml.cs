@@ -63,7 +63,7 @@ namespace AppRouletteNetFlix
 			lvwMovies.SelectedItem = null;
 
 			// chama a pagina MovieDetailsPage
-			await Navigation.PushAsync(new MovieDetailsPage());
+			await Navigation.PushAsync(new MovieDetailsPage(movie));
         }
     }
 }
